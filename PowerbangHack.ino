@@ -27,7 +27,7 @@ void sleep1s() {
 void loop() {
   TinyWireM.beginTransmission(0x6B);
   TinyWireM.write(0x02);
-  TinyWireM.write(0x9C);
+  TinyWireM.write(0xBC);
   TinyWireM.endTransmission();
   sleep1s();
 }
